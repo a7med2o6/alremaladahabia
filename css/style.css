@@ -131,6 +131,8 @@ body {
   justify-content: space-around;
   text-align: center;
   gap: 3rem;
+  margin: auto;
+  padding: 0%;
 }
 .contactus .container .contactus-link a:last-child {
   margin-bottom: 4rem;
@@ -163,9 +165,21 @@ body {
 }
 .contactus .container .contactus-link ul {
   list-style: none;
+  margin: auto;
 }
 .contactus .container .contactus-link img {
   width: 5rem;
   margin-left: 3rem;
+}
+
+@media (max-width: 375px) {
+  .contactus .profile {
+    top: 10%;
+    left: 24%;
+  }
+  .contactus .contacus-info .heading {
+    margin-top: 12rem;
+    line-height: 1.4;
+  }
 }
 /* end contactus */
